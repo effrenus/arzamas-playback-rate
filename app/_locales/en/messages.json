@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "arzamas playback button",
+    "description": "Arzamas playbackRate video control"
+  },
+  "appDescription": {
+    "message": "Speed button for video player on arzamas",
+    "description": "Arzamas playbackRate video control"
+  }
+}

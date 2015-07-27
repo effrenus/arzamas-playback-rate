@@ -1,0 +1,25 @@
+{
+  "name": "Arzamas playbackRate video control",
+  "version": "0.0.6",
+  "manifest_version": 2,
+  "description": "New video control to change play rate",
+  "icons": {
+    "16": "images/ico.png",
+    "128": "images/ico.png"
+  },
+  "default_locale": "en",
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "*://arzamas.academy/*"
+      ],
+      "css": [
+        "styles/playbackRate.css"
+      ],
+      "js": [
+        "scripts/playbackRate.js"
+      ]
+    }
+  ]
+}
